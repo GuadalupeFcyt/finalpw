@@ -1,0 +1,158 @@
+/* uses font awesome for social icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.page-header{
+  text-align: center;
+  text-decoration: underline;
+     color: brown;    
+}
+/*imagen*/
+.imgRedonda {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+
+/*social buttons*/
+.btn-social{
+  color: white;
+  opacity:1;
+}
+.btn-social:hover {
+  color: white;
+    opacity:1;
+}
+.btn-facebook {
+background-color: #3b5998;
+opacity:1;
+}
+.btn-github{
+  background-color:#000000;
+  opacity:1;
+}
+.btn-google {
+  background-color: #c32f10;
+  opacity: 1;
+}
+/* resume stuff */
+
+.bs-callout {
+	 background-color: #F08080;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    margin-bottom: 15px;
+    padding: 50px;
+}
+.bs-callout:last-child {
+    margin-bottom: 7px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 7;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+    border-right-color: #d9534f;
+}
+
+.bs-callout-danger h4{
+    color: #000000;
+    text-decoration: underline  
+
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+  border-radius:3;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+   pointer-events: none;
+   cursor: default;
+}
+
+.resume-heading .social-btns{
+  margin-top:50px;
+}
+.resume-heading .social-btns i.fa{
+  margin-left: 50px;
+}
+
+
+
+@media (max-width: 992px) {
+  .resume-heading .social-btn-holder{
+    padding:5px;
+  }
+}
+
+
+/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+
+.progress-bar {
+    text-align: left;
+	white-space: nowrap;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+	padding-left: 10px;
+}
+
+.progress-meter {
+	min-height: 15px;
+	border-bottom: 2px solid rgb(160, 160, 160);
+  margin-bottom: 15px;
+  font-style:Verdana;
+}
+
+.progress-meter > .meter {
+	position: relative;
+	float: left;
+	min-height: 15px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+	float: right;
+	border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text { 
+	position: absolute;
+	display: inline-block;
+	bottom: -20px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 0.85em;
+	color: rgb(160, 160, 160);
+	text-align: left;
+
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+	text-align: right;
+
+}
+
